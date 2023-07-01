@@ -2,6 +2,126 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@layer base {
+
+  body,
+  html {
+  scroll-behavior: smooth;
+  @apply bg-[#ffffff] font-sans;
+  
+  }
+}
+
+@layer components {
+  .custom-hover-bg-customPrimary {
+    @apply hover:bg-[#6366f1];
+  }
+
+  .custom-button-colored {
+    @apply text-white custom-border-gray rounded-xl shadow-xl bg-[#E7F0FE] hover:bg-[#002C7C]  pl-6 pr-8 pt-2 pb-2 text-sm flex;
+  }
+
+  .navbar-link {
+    @apply  text-[#000] lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium flex justify-center hover:scale-110 transition duration-300 h-full pt-2;
+  }
+  
+  /* BackGround */
+
+  .custom-bg-Light1 {
+    @apply bg-customLightBg1  fill-customLightBg1;
+  }
+  .custom-bg-Light2 {
+    @apply bg-customLightBg2  fill-customLightBg2;
+  }
+  .custom-bg-Light3 {
+    @apply bg-customLightBg3  fill-customLightBg3;
+  }
+
+
+  /* Bordes  */
+  .custom-border-gray {
+    @apply border border-solid border-[rgb(255,255,255,0.15)];
+  }
+  .custom-border-gray-Lighter {
+    @apply border border-solid border-[rgb(255,255,255,0.07)];
+  }
+
+  /* Typography */
+
+.custom-block-title {
+  @apply text-white text-3xl font-bold tracking-normal;
+}
+.custom-block-big-title {
+  @apply text-white text-4xl xl:text-5xl font-bold tracking-normal;
+}
+.custom-block-subtitle {
+  @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
+}
+.custom-content-title {
+  @apply text-white text-lg font-bold tracking-normal;
+}
+.custom-content-text-white {
+  @apply text-white text-base leading-relaxed;
+}
+.custom-content-text-gray {
+  @apply text-gray-400 text-base;
+}
+
+/* Hero */
+
+.custom-shape-divider-bottom-1665343298 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-bottom-1665343298 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+}
+.hero-title-gradient {
+  background: -webkit-linear-gradient(white, #b4add1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Features Top */
+
+.custom-shape-divider-bottom-1665696614 {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1665696614 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 127px;
+  transform: rotateY(180deg);
+}
+
+/* Features Bottom */
+
+.custom-shape-divider-top-1665696661 {
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-top-1665696661 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 127px;
+  transform: rotateY(180deg);
+}
+
+}
+
+
 /* Base Color Shade
 #010A18
 #143262

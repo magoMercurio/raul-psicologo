@@ -18,7 +18,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="w-full h-20 top-0 flex flex-wrap justify-center items-center fixed bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl">
+    <nav className="w-full h-20 top-0 flex flex-wrap justify-center items-center fixed bg-customLightBg1 z-40 lg:backdrop-blur-xl">
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
         <motion.div
           initial={{ opacity: 0 }}
@@ -29,9 +29,9 @@ const NavBar = () => {
           <a href="#home" >
             <div className="flex justify-start items-center grow basis-0">
               <div>
-                <img src={Logo} alt="Logo" className="w-[50px] h-[50px] object-contain mr-3" />
+                <img src={Logo} alt="Logo" className="w-[90px] h-[90px] object-contain mr-4" />
               </div>
-                <span className="font-['Open Sans'] font-bold text-medium " >Raul Davila Psicologo</span>
+                <span className="font-['openSans'] font-bold text-2xl " >Raul Davila Psicologo</span>
             </div>
           </a>
         </motion.div>
@@ -41,7 +41,7 @@ const NavBar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="hidden lg:flex h-full pl-12 pb-2 gap-20">
+          <div className="hidden lg:flex h-full pl-12 pb-2 gap-4">
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
                 className="navbar-link"
@@ -74,7 +74,7 @@ const NavBar = () => {
         </motion.div>
         
         <div
-          className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customDarkBg2"
+          className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customLightBg2"
           onClick={() => setIsOpen(!isOpen)}
         >
           <div className="w-5 h-0.5 bg-gray-500  mb-1"></div>
@@ -92,8 +92,8 @@ const NavBar = () => {
             exit={{ opacity: 0 }}
           >
             <div
-              className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-customDarkBg1 z-50 w-full 
-        items-center gap-10 pb-10 border-y border-solid border-customDarkBg3 pt-10
+              className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-customLightBg1 z-50 w-full 
+        items-center gap-10 pb-10 border-y border-solid border-customLightBg3 pt-10
         "
             >
               {navbarLinks.map(({ label, href, ariaLabel }) => (

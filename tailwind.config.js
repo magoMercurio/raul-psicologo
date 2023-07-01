@@ -6,6 +6,20 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        "customPrimary": "#3B82F6",
+        "customSecondary": "#6CA1F8",
+        "customLightBg1": "#BCD6FC",
+        "customLightBg2": "#91BAFA",
+        "customLightBg3": "#1F4688",
+        "customLightBg3Hover": "#2E64C0",
+        "customContentSubtitle": "rgb(178, 184, 205)",
+        "customGrayBorder": "rgb(255,255,255,0.1)",
+        "customGrayText": "rgb(174, 178, 183)",
+        "customLightBgTransparent": "rgb(31, 32, 35, 0.7)",
+        "customLightBgTransparentdarker": "rgb(0,0,0,0.5)",
+        "customLightBgTransparentLighter": "rgb(48, 49, 54, 0.7)"  
+      },
       screens: {
         "xs": "530px",
         "sm": "640px",
