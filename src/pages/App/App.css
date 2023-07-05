@@ -10,7 +10,8 @@
   body,
   html {
   scroll-behavior: smooth;
-  @apply bg-[#ffffff] font-sans;
+  @apply bg-[#ffffff] font-martianMono;
+  
   
   }
 }
@@ -38,6 +39,9 @@
   }
   .custom-bg-Light3 {
     @apply bg-customLightBg3  fill-customLightBg3;
+  }
+  .custom-bg-lightGradient1 {
+    background: linear-gradient(0deg, #BCD6FC, #ffffff)
   }
 
 

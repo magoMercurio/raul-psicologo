@@ -18,7 +18,7 @@ export default {
         "customGrayText": "rgb(174, 178, 183)",
         "customLightBgTransparent": "rgb(31, 32, 35, 0.7)",
         "customLightBgTransparentdarker": "rgb(0,0,0,0.5)",
-        "customLightBgTransparentLighter": "rgb(48, 49, 54, 0.7)"  
+        "customLightBgTransparentLighter": "rgb(48, 49, 54, 0.7)"
       },
       screens: {
         "xs": "530px",
@@ -31,6 +31,7 @@ export default {
       },
       fontFamily: {
         openSans: "Open Sans",
+        martianMono: "Martian Mono"
       },
     },
   },
