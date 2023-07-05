@@ -18,7 +18,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="w-full h-20 top-0 flex flex-wrap justify-center items-center fixed bg-customLightBg1 z-40 lg:backdrop-blur-xl">
+    <nav className="w-screen h-20 top-0 flex flex-wrap justify-center items-center fixed bg-customLightBg1/90 z-40 backdrop-blur-xl">
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
         <motion.div
           initial={{ opacity: 0 }}
@@ -92,8 +92,8 @@ const NavBar = () => {
             exit={{ opacity: 0 }}
           >
             <div
-              className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-customLightBg1 z-50 w-full 
-        items-center gap-10 pb-10 border-y border-solid border-customLightBg3 pt-10
+              className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-customLightBg1/90 backdrop-blur-xl  z-50 w-full 
+        items-center gap-10 pb-10 border-y border-solid border-customLightBg3  pt-10 
         "
             >
               {navbarLinks.map(({ label, href, ariaLabel }) => (
