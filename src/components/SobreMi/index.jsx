@@ -23,7 +23,7 @@ const SobreMi = () => {
             <div className="grid justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center mt-10">
             {aboutData.map((about, index) => (
               <div
-                className="w-11/12 h-fit sm:w-4/5 md:w-auto md:h-[350px] lg:w-auto custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col justify-start px-6 py-4 my-5"
+                className="w-11/12 h-fit sm:w-4/5 md:w-auto md:h-[350px] lg:w-auto custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col justify-start px-6 py-4 my-5 "
                 key={`${about.title} - ${index}`}
               >
                 <div className="flex justify-start">
@@ -31,7 +31,7 @@ const SobreMi = () => {
                 </div>
                 <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
                   <div className="flex flex-col ml-4">
-                    <div className="custom-content-text-gray">
+                    <div className="text-customLightBg3">
                       {about.description}
                     </div>
                   </div>

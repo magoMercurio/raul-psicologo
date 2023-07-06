@@ -47,7 +47,7 @@
     background: linear-gradient(180deg, #BCD6FC, #ffffff)
   }
   .custom-bg-lightFullGradient1 {
-    background: linear-gradient(0deg, #BCD6FC, #c2dafc, #e6f0fd, #f5f5f5)
+    background: linear-gradient(0deg, #f5f5f5, #c2dafc, #bcd6fc, #f5f5f5)
   }
 
   /* Bordes  */
