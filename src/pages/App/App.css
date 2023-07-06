@@ -43,7 +43,12 @@
   .custom-bg-lightGradient1 {
     background: linear-gradient(0deg, #BCD6FC, #ffffff)
   }
-
+  .custom-bg-ligthGradient2 {
+    background: linear-gradient(180deg, #BCD6FC, #ffffff)
+  }
+  .custom-bg-lightFullGradient1 {
+    background: linear-gradient(0deg, #BCD6FC, #c2dafc, #e6f0fd, #f5f5f5)
+  }
 
   /* Bordes  */
   .custom-border-gray {
@@ -62,7 +67,7 @@
   @apply text-white text-4xl xl:text-5xl font-bold tracking-normal;
 }
 .custom-block-subtitle {
-  @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
+  @apply text-xs text-customLightBg3  tracking-wider font-bold uppercase;
 }
 .custom-content-title {
   @apply text-white text-lg font-bold tracking-normal;
