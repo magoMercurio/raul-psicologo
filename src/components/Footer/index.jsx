@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
               <Link to="/" >
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white font-['Inter'] font-bold text-xl">
+              <div>
                 <img src={Logo} alt="Logo" className="w-16 mr-3" />
               </div>
             </div>
