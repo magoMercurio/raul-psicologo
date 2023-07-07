@@ -22,7 +22,7 @@
   }
 
   .custom-button-colored {
-    @apply text-white custom-border-gray rounded-xl shadow-xl bg-[#E7F0FE] hover:bg-[#002C7C]  pl-6 pr-8 pt-2 pb-2 text-sm flex;
+    @apply text-customLightBg3 border-customPrimary rounded-xl shadow-xl bg-customLightBg2 hover:bg-customLightBg1 pl-6 pr-8 pt-2 pb-2 text-sm flex;
   }
 
   .navbar-link {
