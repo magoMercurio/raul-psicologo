@@ -16,7 +16,7 @@ const Form = () => {
         <input type="email" placeholder="Email" autoComplete='true' className="input input-bordered input-info border-customPrimary w-full max-w-xs" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
         <input type="tel" placeholder="Telefono" autoComplete='true' className="input input-bordered input-info  border-customPrimary w-full max-w-xs" {...register("Telefono", {maxLength: 12})} />
 
-        <button type="submit" className='btn custom-button-colored w-36  mb-5'> Enviar </button>
+        <button type="submit" className='btn custom-button-colored shadow-md hover:shadow-lg w-36  mb-5'> Enviar </button>
       </form>
     </div>
     

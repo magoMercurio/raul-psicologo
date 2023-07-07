@@ -26,7 +26,7 @@ const Contacto = () => {
           <div className="w-fit mx-auto lg:mx-0 gap-4 mt-10">
                 
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2   hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2   hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="https://www.facebook.com/raul.consciencia"
                   target="_blank"
                   aria-label="facebook" rel="noreferrer"
@@ -34,7 +34,7 @@ const Contacto = () => {
                   <FacebookIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="https://www.instagram.com/consciencia_rd/"
                   target="_blank"
                   aria-label="instagram" rel="noreferrer"
@@ -42,7 +42,7 @@ const Contacto = () => {
                   <InstagramIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="https://www.linkedin.com/in/raul-davila-61977415/"
                   target="_blank"
                   aria-label="linkedin" rel="noreferrer"
@@ -50,7 +50,7 @@ const Contacto = () => {
                   <LinkedinIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="mailto:raulpsicologo.contacto@gmail.com"
                 >
                   <img src={mailIcon} alt="mail" className="w-6 h-6"/>

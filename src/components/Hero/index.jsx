@@ -15,7 +15,7 @@ const Hero = () => {
 
         <div className="w-full flex flex-col md:flex-row justify-center items-center text-center gap-6 p-4  mb-10 mt-20 "  >
           <figure className='w-fit flex justify-center items-center' >
-          <img src= {heroImg} alt="heroImg" className=" rounded-[45%] bg-customLightBg1 w-[40%] sm:w-[50%] md:w-60  lg:w-[70%] "  />
+          <img src= {heroImg} alt="heroImg" className=" rounded-[45%] bg-customLightBg1 w-[40%] sm:w-[50%] md:w-60  lg:w-[70%] shadow-lg "  />
           </figure>
 
           <div className='flex flex-col justify-center items-center' >

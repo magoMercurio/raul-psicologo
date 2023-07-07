@@ -62,7 +62,7 @@ const NavBar = () => {
         >
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
-              className="inline-block w-10  h-10 mr-2 p-2 bg-white custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+              className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2 hover:bg-customLightBg3Hover rounded-xl shadow-md "
               href={socialLinks[0].link}
               target="_blank"
               aria-label="facebook" rel="noreferrer"
@@ -108,7 +108,7 @@ const NavBar = () => {
                 </a>
               ))}
               <a
-              className="inline-block w-10  h-10 mr-2 p-2 bg-white custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+              className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2 hover:bg-customLightBg3Hover rounded-xl shadow-md"
               href={socialLinks[0].link}
               target="_blank"
               aria-label="facebook" rel="noreferrer"

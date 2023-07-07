@@ -13,7 +13,7 @@ import Logo from '../../assets/imgs/logo.png'
 
 const Footer = () => {
   return (
-    <footer className="mb-5" >
+    <footer className="mb-5 bg-customLightBg1/90 " >
       <div className="pt-10  lg:pt-20 lg:pb-12 bg-customDarkBg1 radius-for-skewed ">
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <div className="flex flex-wrap items-start">
@@ -44,7 +44,7 @@ const Footer = () => {
               <div className="w-fit mx-auto lg:mx-0 gap-4">
                 
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2   hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2 hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="https://www.facebook.com/raul.consciencia"
                   target="_blank"
                   aria-label="facebook" rel="noreferrer"
@@ -52,7 +52,7 @@ const Footer = () => {
                   <FacebookIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="https://www.instagram.com/consciencia_rd/"
                   target="_blank"
                   aria-label="instagram" rel="noreferrer"
@@ -60,7 +60,7 @@ const Footer = () => {
                   <InstagramIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="https://www.linkedin.com/in/raul-davila-61977415/"
                   target="_blank"
                   aria-label="linkedin" rel="noreferrer"
@@ -68,7 +68,7 @@ const Footer = () => {
                   <LinkedinIcon />
                 </a>
                 <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-customLightBg3Hover rounded-xl shadow-md"
                   href="mailto:raulpsicologo.contacto@gmail.com"
                 >
                   <img src={mailIcon} alt="mail" className="w-6 h-6"/>
