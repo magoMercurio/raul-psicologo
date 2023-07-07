@@ -41,26 +41,22 @@ export const aboutData = [
 export const servicesData = [
   {
     title: 1,
-    description: 'Terapia Psicológica: A través de sesiones individuales, te brindo un espacio seguro y confidencial donde exploraremos tus desafíos emocionales y desarrollaremos estrategias efectivas para superarlos.',
+    description: 'Terapia Psicológica.',
   },
   {
     title: 2,
-    description: 'Tratamientos contra Depresión y Ansiedad: Utilizando enfoques terapéuticos Cognitivo-Conductual, te brindo apoyo y herramientas para hacer frente a la depresión y la ansiedad, fomentando tu bienestar mental.',
+    description: 'Tratamientos contra Depresión y Ansiedad.',
   },
   {
     title: 3,
-    description: 'Problemas Emocionales: Trabajaremos juntos para abordar una amplia gama de problemas emocionales, como el manejo del estrés, la ira, el miedo, la tristeza y otros desafíos que afectan tu equilibrio emocional.',
+    description: 'Problemas Emocionales.',
   },
   {
     title: 4,
-    description: 'Entendimiento Personal: A través de un enfoque de introspección, te ayudaré a comprenderte mejor. Exploraremos tu pasado y cómo está afectando tu presente, brindándote una visión más clara de ti mismo/a y permitiéndote tomar mejores decisiones en tu vida.',
+    description: 'Entendimiento Personal.',
   },
   {
     title: 5,
-    description: 'Acompañamiento en la visión de tu pasado: Trabajaremos juntos para explorar y comprender cómo tu pasado ha influido en tu vida actual. Mediante un enfoque compasivo, te apoyaré en el proceso de sanación y te ayudaré a liberarte de patrones y limitaciones que puedan estar afectando tu bienestar.',
-  },
-  {
-    title: 6,
-    description: 'Mi objetivo es proporcionarte un apoyo integral y personalizado para que puedas alcanzar una vida más plena y satisfactoria. Cada uno de estos servicios se adapta a tus necesidades individuales, brindándote las herramientas y la orientación necesarias para tu crecimiento personal y emocional.',
-  },
+    description: 'Acompañamiento en la visión de tu pasado.',
+  }
 ]
