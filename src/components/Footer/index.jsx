@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { socialLinks } from "../../Data/data.js";
-
+import { socialLinks } from "../../Data/data.js"
 
 
 import InstagramIcon from '../../assets/icons/InstagramIcon'

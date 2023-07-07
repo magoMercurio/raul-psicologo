@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-
+import { socialLinks } from "../../Data/data.js"
 import Facebookicon from '../../assets/icons/FacebookIcon'
 import Logo from '../../assets/imgs/logo.png'
 
@@ -63,7 +63,7 @@ const NavBar = () => {
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
               className="inline-block w-10  h-10 mr-2 p-2 bg-white custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
-              href="https://www.facebook.com/raul.consciencia"
+              href={socialLinks[0].link}
               target="_blank"
               aria-label="facebook" rel="noreferrer"
             >
@@ -109,7 +109,7 @@ const NavBar = () => {
               ))}
               <a
               className="inline-block w-10  h-10 mr-2 p-2 bg-white custom-border-gray  hover:bg-customLightBg3Hover rounded-xl"
-              href="https://www.facebook.com/raul.consciencia"
+              href={socialLinks[0].link}
               target="_blank"
               aria-label="facebook" rel="noreferrer"
             >
