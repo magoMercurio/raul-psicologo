@@ -52,7 +52,7 @@
 
   /* Bordes  */
   .custom-border-gray {
-    @apply border border-solid border-[rgb(255,255,255,0.15)];
+    @apply border border-solid border-[#3B82F6];
   }
   .custom-border-gray-Lighter {
     @apply border border-solid border-[rgb(255,255,255,0.07)];

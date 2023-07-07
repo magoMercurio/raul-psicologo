@@ -3,6 +3,9 @@ import Hero from "../../components/Hero"
 import SobreMi from "../../components/SobreMi"
 import Servicios from "../../components/Servcios"
 import Contacto from "../../components/Contacto"
+import ScrollUpButton from "../../assets/icons/ScrollUpButton"
+
+
 
 
 
@@ -13,6 +16,7 @@ const Home = () => {
       <SobreMi />
       <Servicios />
       <Contacto />
+      <ScrollUpButton />
     </Layout>
   )
 }
