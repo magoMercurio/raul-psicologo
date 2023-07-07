@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { servicesData } from '../../Data/data.js'
 
-import { CheckArrowIcon } from "../../assets/icons/CheckArrowIcon";
+import  CheckArrowIcon  from "../../assets/icons/CheckArrowIcon";
 import imgList1 from '../../assets/imgs/_dd420e26-0b69-46fd-bd82-3c220bc59e54.jpeg'
 import imgList2 from '../../assets/imgs/_de552935-976f-45b1-ab52-4294dc8e6a47.jpeg'
 
