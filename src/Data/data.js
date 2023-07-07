@@ -64,24 +64,21 @@ export const servicesData = [
 // ************ Footer data ************
 
 
-export const footerData = [
+export const socialLinks  = [
   {
-    title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
+    social: "Facebook",
+    link: "https://www.facebook.com/raul.consciencia"
   },
   {
-    title: "Important Links",
-    items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
-      "Terms & Conditions",
-      "Privacy Policy",
-    ],
+    social: "Instagram",
+    link: "https://www.instagram.com/consciencia_rd/"
   },
   {
-    title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
+    social: "LinkedIn",
+    link: "https://www.linkedin.com/in/raul-davila-61977415/"
   },
+  {
+    social: "Mail",
+    link: "mailto:raulpsicologo.contacto@gmail.com"
+  }
 ]
