@@ -8,14 +8,14 @@ import imgList2 from '../../assets/imgs/_de552935-976f-45b1-ab52-4294dc8e6a47.jp
 const Servicios = () => {
   return (
     <>
-    <section>
+    <section id="servicios">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >
-      <h2 className="custom-block-big-title text-customLightBg3 flex flex-col justify-center items-center mb-10 " > Mis Servicios</h2>
+      <h2 className="custom-block-big-title text-customLightBg3 flex flex-col justify-center items-center mb-10 mt-48 " > Mis Servicios</h2>
       <p className="custom-content-title text-customPrimary text-center break-words mb-10 mx-20">Mi objetivo es proporcionarte un apoyo integral y personalizado para que puedas alcanzar una vida más plena y satisfactoria. Cada uno de estos servicios se adapta a tus necesidades individuales, brindándote las herramientas y la orientación necesarias para tu crecimiento personal y emocional.</p>
 
       <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3 gap-10 ml-10 mr-10">

@@ -11,7 +11,7 @@ const Hero = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >  
-      <p className="custom-block-big-title text-customLightBg3 break-words text-center text-sm sm:text-base font-bold mt-5 mb-20 ml-20 mr-20 " >Bienvenido/a a un espacio  crecimiento personal y de sanación, donde encontrarás el apoyo y la guía necesarios para alcanzar tu bienestar emocional.</p>
+      <p className="custom-block-big-title text-customLightBg3 break-words text-center text-sm sm:text-base font-bold mt-32 mb-20 ml-20 mr-20 " >Bienvenido/a a un espacio  crecimiento personal y de sanación, donde encontrarás el apoyo y la guía necesarios para alcanzar tu bienestar emocional.</p>
 
         <div className="w-full flex flex-col md:flex-row justify-center items-center text-center gap-6 p-4  mb-10 mt-20 "  >
           <figure className='w-fit flex justify-center items-center' >

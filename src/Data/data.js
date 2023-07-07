@@ -61,7 +61,7 @@ export const servicesData = [
   }
 ]
 
-// ************ Footer data ************
+// ************ Social Links data ************
 
 
 export const socialLinks  = [
