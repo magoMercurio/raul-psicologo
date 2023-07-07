@@ -112,11 +112,9 @@ const NavBar = () => {
               href={socialLinks[0].link}
               target="_blank"
               aria-label="facebook" rel="noreferrer"
-            >
-              <Facebookicon />
-
-            </a>
-              
+              >
+                <Facebookicon />
+              </a>
             </div>
           </motion.div>
         )}
