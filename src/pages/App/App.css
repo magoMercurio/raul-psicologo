@@ -98,6 +98,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+.hero-bg-img {
+  background-image: url('../../assets/imgs/hero-bg-colors.webp');
+  
+}
+
 /* Features Top */
 
 .custom-shape-divider-bottom-1665696614 {

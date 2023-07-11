@@ -1,17 +1,18 @@
 import { motion } from "framer-motion"
 import heroImg from '../../assets/imgs/heroimg.webp'
+import CallToAction from "../CallToActionBtn"
 
 const Hero = () => {
 
   return (
-    <section className="  flex flex-col justify-center items-center  mb-0 mt-5 " id="home">
+    <section className="  flex flex-col justify-center items-center  mb-0 w-full hero-bg-img bg-cover " id="home">
       <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >  
-      <p className="custom-block-big-title text-customLightBg3 break-words text-center text-sm sm:text-base font-bold mt-32 mb-20 ml-20 mr-20 " >Bienvenido/a a un espacio  crecimiento personal y de sanación, donde encontrarás el apoyo y la guía necesarios para alcanzar tu bienestar emocional.</p>
+      <p className="custom-block-big-title text-customLightBg3 break-words text-center text-sm sm:text-base font-bold mt-24 mb-20 ml-20 mr-20 " >Bienvenido/a a un espacio  crecimiento personal y de sanación, donde encontrarás el apoyo y la guía necesarios para alcanzar tu bienestar emocional.</p>
 
         <div className="w-full flex flex-col md:flex-row justify-center items-center text-center gap-6 p-4  mb-10 mt-20 "  >
           <figure className='w-fit flex justify-center items-center' >
@@ -27,6 +28,9 @@ const Hero = () => {
             </div>
             
           </div>
+        </div>
+        <div className="relative w-full flex justify-center items-center mb-[-35px]">
+          <CallToAction />
         </div>
         </motion.div>
       </section>
