@@ -1,9 +1,8 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { socialLinks } from "../../Data/data.js"
-import Facebookicon from '../../assets/icons/FacebookIcon'
 import Logo from '../../assets/imgs/logo.png'
-
+import CallToAction from '../CallToActionBtn'
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
@@ -60,17 +59,7 @@ const NavBar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="grow basis-0 justify-end hidden lg:flex">
-            <a
-              className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2 hover:bg-customLightBg3Hover rounded-xl shadow-md "
-              href={socialLinks[0].link}
-              target="_blank"
-              aria-label="facebook" rel="noreferrer"
-            >
-              <Facebookicon />
-              
-            </a>
-          </div>
+          
         </motion.div>
         
         <div
@@ -107,14 +96,7 @@ const NavBar = () => {
                   {label}
                 </a>
               ))}
-              <a
-              className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2 hover:bg-customLightBg3Hover rounded-xl shadow-md"
-              href={socialLinks[0].link}
-              target="_blank"
-              aria-label="facebook" rel="noreferrer"
-              >
-                <Facebookicon />
-              </a>
+                <CallToAction />
             </div>
           </motion.div>
         )}
