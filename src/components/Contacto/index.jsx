@@ -57,7 +57,7 @@ const Contacto = () => {
                 </a>
               </div>
         </div>
-      <Form />
+      {/* <Form /> Disabled for now*/}
       </div>
       </motion.div>
     </section>
