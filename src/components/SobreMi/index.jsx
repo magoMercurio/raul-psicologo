@@ -16,7 +16,7 @@ const SobreMi = () => {
       <div className="flex flex-col items-center justify-center  md:pl-4 xl:pr-16 xl:pl-16 mt-48">
         <div className="w-full  mb-10 ">
           <div className="flex flex-col items-center justify-center ">
-            <h2 className="mt-6 mb-20  custom-block-big-title text-customLightBg3 text-center ml-20 mr-20">
+            <h2 className="mt-6 mb-20  custom-block-big-title text-customLightBg3 text-center ml-20 mr-20 ">
               Terapeuta licenciado en Psicología con formación en Bioneuroemoción.
             </h2>
 
