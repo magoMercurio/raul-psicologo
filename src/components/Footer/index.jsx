@@ -13,7 +13,7 @@ import Logo from '../../assets/imgs/logo.png'
 
 const Footer = () => {
   return (
-    <footer className="mb-5 bg-customLightBg1/90 " >
+    <footer className=" bg-customLightBg1/90 " >
       <div className="pt-10  lg:pt-20 lg:pb-12 bg-customDarkBg1 radius-for-skewed ">
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <div className="flex flex-wrap items-start">
@@ -99,7 +99,7 @@ const Footer = () => {
               
             </div>
           </div>
-          <p className="text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 block">
+          <p className="text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-5 mt-6 block">
             &copy; 2023. Creado por Raúl Dávila
           </p>
         </div>

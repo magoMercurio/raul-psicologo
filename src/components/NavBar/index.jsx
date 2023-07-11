@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { socialLinks } from "../../Data/data.js"
 import Logo from '../../assets/imgs/logo.png'
 import CallToAction from '../CallToActionBtn'
 

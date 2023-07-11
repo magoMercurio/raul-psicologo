@@ -1,9 +1,6 @@
 import MobileIcon from "../../assets/icons/MobileIcon"
 import Logo from '../../assets/imgs/logo.png'
 
-
-
-
 const CardContact = ({ nombre, email, telLink, tel }) => {
 
 
@@ -21,7 +18,7 @@ const CardContact = ({ nombre, email, telLink, tel }) => {
           </div>
           <div className="text-customLightBg3 text-center text-lg font-bold flex flex-row justify-center hover:text-customLightBg3Hover cursor-pointer" >
           <MobileIcon />
-          <a href={`tel:${ telLink }`}>(+52) 868 159 6775</a>
+          <a href={`tel:${ telLink }`}>{ tel }</a>
           </div>
           <p className=" text-customLightBg3 text-center mt-6 "> Correo Electrónico 
           <p className="mt-2 ">
