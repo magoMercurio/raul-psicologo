@@ -25,7 +25,7 @@ const Contacto = () => {
       </p>
       <div className="container w-full flex flex-col-reverse md:flex-row-reverse m-auto ">
         <div className="socials flex flex-col justify-center items-center mt-10 mb-10">
-          <p className="text-customLightBg3 break-words text-center ">Sígueme en mis redes sociales para obtener inspiración diaria, consejos útiles y contenido relevante sobre salud mental y crecimiento personal.</p>
+          <p className="text-customLightBg3 break-words text-center mx-10 ">Sígueme en mis redes sociales para obtener inspiración diaria, consejos útiles y contenido relevante sobre salud mental y crecimiento personal.</p>
           <div className="w-fit  gap-4 mt-10">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 custom-border-gray bg-customDarkBg2   hover:bg-customLightBg3Hover rounded-xl shadow-md"
