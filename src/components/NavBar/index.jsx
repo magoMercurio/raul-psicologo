@@ -4,7 +4,7 @@ import Logo from '../../assets/imgs/logo.png'
 import CallToAction from '../CallToActionBtn'
 
 const navbarLinks = [
-  { label: "Home", href: "#home", ariaLabel: "Home" },
+  { label: "Home", href: "#", ariaLabel: "Home" },
   { label: "Sobre mi", href: "#sombremi", ariaLabel: "Sobre mi" },
   { label: "Servicios", href: "#servicios", ariaLabel: "Servicios" },
   { label: "Contacto", href: "#contacto", ariaLabel: "Contacto" },
@@ -24,7 +24,7 @@ const NavBar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <a href="#home" >
+          <a href="#" >
             <div className="flex justify-start items-center grow basis-0">
               <div>
                 <img src={Logo} alt="Logo" className="w-[90px] h-[90px] object-contain mr-4" />

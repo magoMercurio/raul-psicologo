@@ -12,15 +12,15 @@ import CardContact from "../CardContact"
 const Contacto = () => {
   return (
     <>
-    <section id="contacto" className="mt-20 w-full">
+    <section id="contacto" className=" w-full">
       <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >
-      <h2 className="custom-block-big-title text-customLightBg3 flex flex-col justify-center items-center mt-48 mb-10 " >Contacto</h2>
-      <p className="flex flex-col justify-center items-center mb-10 mx-10">
+      <h2 className="custom-block-big-title text-customLightBg3 flex flex-col justify-center items-center mt-28 mb-5 " >Contacto</h2>
+      <p className="flex flex-col justify-center items-center  mx-10">
         <span className="text-customPrimary text-center break-words">Estoy aquí para ayudarte en tu camino hacia el bienestar emocional. No dudes en ponerte en contacto conmigo para comenzar tu proceso de transformación.</span>
       </p>
       <div className="container w-full flex flex-col-reverse md:flex-row-reverse m-auto ">
