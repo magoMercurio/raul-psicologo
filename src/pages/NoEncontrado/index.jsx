@@ -1,7 +1,7 @@
 import Layout from "../../components/Layout";
 import "./style.css";
 
-const NotFound = () => {
+const NoEncontrado = () => {
   return (
     <>
       <Layout>
@@ -124,4 +124,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default NoEncontrado

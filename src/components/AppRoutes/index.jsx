@@ -2,7 +2,8 @@ import { useRoutes } from 'react-router-dom'
 
 import Home from '../../pages/Home'
 import Blog from '../../Pages/Blog'
-import NotFound from '../../Pages/NotFound'
+import NoEncontrado from '../NoEncontrado'
+
 
 
 
@@ -12,7 +13,7 @@ const AppRoutes = () => {
   const routes = useRoutes([
     { path: '/', element: <Home /> },
     { path: '/blog', element: <Blog />},
-    {path: '*', element: <NotFound /> }
+    {path: '*', element: <NoEncontrado /> }
 
   ])
   return routes
