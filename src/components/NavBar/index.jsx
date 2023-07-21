@@ -4,10 +4,10 @@ import Logo from '../../assets/imgs/logo.png'
 import CallToAction from '../CallToActionBtn'
 
 const navbarLinks = [
-  { label: "Home", href: "#", ariaLabel: "Home" },
-  { label: "Sobre mi", href: "#sombremi", ariaLabel: "Sobre mi" },
-  { label: "Servicios", href: "#servicios", ariaLabel: "Servicios" },
-  { label: "Contacto", href: "#contacto", ariaLabel: "Contacto" },
+  { label: "Home", href: "/#", ariaLabel: "Home" },
+  { label: "Sobre mi", href: "/#sombremi", ariaLabel: "Sobre mi" },
+  { label: "Servicios", href: "/#servicios", ariaLabel: "Servicios" },
+  { label: "Contacto", href: "/#contacto", ariaLabel: "Contacto" },
   { label: "Blog", href: "#blog", ariaLabel: "Blog" },
 ]
 
