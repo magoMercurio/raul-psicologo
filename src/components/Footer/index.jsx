@@ -30,12 +30,12 @@ const Footer = () => {
                   Raúl Dávila Psicologo
                 </div>
               </div>
-              <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-customPrimary leading-loose text-center lg:text-left mx-auto lg:mx-0">
+              <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem]  leading-loose text-center lg:text-left mx-auto lg:mx-0">
               No esperes más, da el primer paso hacia el cambio positivo. ¡Conéctate conmigo hoy mismo y juntos construiremos un camino hacia tu bienestar emocional!
                 <a
                   href="mailto:raulpsicologo.contacto@gmail.com"
                   target="_blank"
-                  className="text-customSecondary hover:text-customLightBg3Hover ml-1.5 "
+                  className="text-customPrimary hover:text-customLightBg3Hover hover:underline ml-1.5 "
                   aria-label="Mail" rel="noreferrer"
                 >
                   Aqui.
@@ -84,7 +84,7 @@ const Footer = () => {
                   {socialLinks.map((socialLink, index) => (
                     <li key={`${socialLink.social} - ${index}`} className="mb-4">
                       <a
-                        className="text-customSecondary hover:text-customLightBg3Hover"
+                        className="text-customPrimary hover:text-customLightBg3Hover hover:underline"
                         href={socialLink.link}
                         target="_blank"
                         aria-label={socialLink.social} 

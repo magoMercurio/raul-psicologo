@@ -11,7 +11,7 @@ const Cards = ( { description, image }) => {
       </div>
         <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
           <div className="flex flex-col ml-4">
-            <div className="text-customLightBg3">
+            <div className="">
               {description}
             </div>
           </div>

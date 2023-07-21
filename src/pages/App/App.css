@@ -10,7 +10,7 @@
   body,
   html {
   scroll-behavior: smooth;
-  @apply bg-[#ffffff] font-martianMono;
+  @apply bg-[#ffffff] text-[#000] font-martianMono;
   
   
   }
@@ -26,7 +26,7 @@
   }
 
   .navbar-link {
-    @apply  text-[#000] lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium flex justify-center hover:scale-110 transition duration-300 h-full pt-2;
+    @apply  text-[#000] lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium flex justify-center hover:underline hover:scale-110 transition duration-300 h-full pt-2;
   }
   
   /* BackGround */

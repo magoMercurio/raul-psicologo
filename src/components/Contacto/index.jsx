@@ -21,7 +21,7 @@ const Contacto = () => {
     >
       <h2 className="custom-block-big-title text-customLightBg3 flex flex-col justify-center items-center mt-28 mb-5 " >Contacto</h2>
       <p className="flex flex-col justify-center items-center  mx-10">
-        <span className="text-customPrimary text-center break-words">Estoy aquí para ayudarte en tu camino hacia el bienestar emocional. No dudes en ponerte en contacto conmigo para comenzar tu proceso de transformación.</span>
+        <span className="text-customLightBg3 text-center break-words">Estoy aquí para ayudarte en tu camino hacia el bienestar emocional. No dudes en ponerte en contacto conmigo para comenzar tu proceso de transformación.</span>
       </p>
       <div className="container w-full flex flex-col-reverse md:flex-row-reverse m-auto ">
         <div className="socials flex flex-col justify-center items-center mt-10 mb-10">

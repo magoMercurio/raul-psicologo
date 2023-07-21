@@ -16,14 +16,14 @@ const CardContact = ({ nombre, email, telLink, tel }) => {
           <div className="text-customLightBg3  text-center mb-4">
             Puedes contactarme para Agendar tu consulta via Telefonica o Whatsapp.
           </div>
-          <div className="text-customLightBg3 text-center text-lg font-bold flex flex-row justify-center hover:text-customLightBg3Hover cursor-pointer" >
+          <div className="text-customLightBg3 text-center text-lg font-bold flex flex-row justify-center hover:text-customLightBg3Hover hover:underline cursor-pointer" >
           <MobileIcon />
           <a href={`tel:${ telLink }`}>{ tel}</a>
           </div>
           <div className="w-full flex flex-col justify-center items-center  ">
             <div className=" text-customLightBg3 text-center mt-4 "> Correo Electrónico 
             <div className="w-full mt-2 mx-auto text-center">
-            <a className=" text-customLightBg3 text-xs sm:text-lg font-bold break-words hover:text-customLightBg3Hover cursor-pointer" href={`mailto:${ email }?subject=Consulta%20`}>{ email }</a></div>
+            <a className=" text-customLightBg3 text-xs sm:text-lg font-bold break-words hover:underline hover:text-customLightBg3Hover cursor-pointer" href={`mailto:${ email }?subject=Consulta%20`}>{ email }</a></div>
             </div>
           </div>
         </div>
