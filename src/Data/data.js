@@ -3,8 +3,9 @@
 import aboutImg1 from '../assets/imgs/male-lawyer-upper-body-svgrepo-com.png'
 import aboutImg2 from '../assets/imgs/men-in-suits-to-guide-svgrepo-com.png'
 import aboutImg3 from '../assets/imgs/career-advancement-male-svgrepo-com.png'
-import aboutImg4 from '../assets/imgs/happy-woman-svgrepo-com.png'
-import aboutImg5 from '../assets/imgs/man-wearing-a-tie-svgrepo-com.png'
+import aboutImg4 from '../assets/imgs/step-up-male-svgrepo-com.png'
+import aboutImg5 from '../assets/imgs/happy-woman-svgrepo-com.png'
+import aboutImg6 from '../assets/imgs/man-wearing-a-tie-svgrepo-com.png'
 
 // ************ Sobre mi data ************
 
@@ -21,18 +22,23 @@ export const aboutData = [
   },
   {
     title: 3,
-    description: ' Mi misión es ayudar a las personas a encontrar la paz mental y emocional que tanto anhelan, apoyando en su proceso de cambio y crecimiento. Explorando nuevas perspectivas y descubriendo fortalezas ocultas, desarrollando estrategias efectivas para superar los obstáculos que impiden alcanzar el bienestar emocional.',
+    description: ' Mi misión es ayudar a las personas a encontrar la paz mental y emocional que tanto anhelan, apoyando en su proceso de cambio y crecimiento',
     image: aboutImg3,
   },
   {
     title: 4,
-    description: 'Creo en la importancia de crear un espacio seguro y acogedor para mis clientes, donde puedan sentirse escuchados y comprendidos en cada paso del camino.',
+    description: 'Desarrollando estrategias efectivas para superar los obstáculos que impiden alcanzar el bienestar emocional.',
     image: aboutImg4,
   },
   {
     title: 5,
-    description: 'Mi enfoque se basa en una colaboración activa y empática, adaptando mis técnicas y herramientas a las necesidades individuales de cada persona.',
+    description: 'Creo en la importancia de crear un espacio seguro y acogedor para mis clientes, donde puedan sentirse escuchados y comprendidos en cada paso del camino.',
     image: aboutImg5,
+  },
+  {
+    title: 6,
+    description: 'Mi enfoque se basa en una colaboración activa y empática, adaptando mis técnicas y herramientas a las necesidades individuales de cada persona.',
+    image: aboutImg6,
   }
 ]
 

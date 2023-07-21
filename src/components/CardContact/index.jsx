@@ -21,10 +21,10 @@ const CardContact = ({ nombre, email, telLink, tel }) => {
           <a href={`tel:${ telLink }`}>{ tel}</a>
           </div>
           <div className="w-full flex flex-col justify-center items-center  ">
-            <p className=" text-customLightBg3 text-center mt-4 "> Correo Electrónico 
-            <p className="w-full mt-2 mx-auto text-center">
-            <a className=" text-customLightBg3 text-xs sm:text-lg font-bold break-words hover:text-customLightBg3Hover cursor-pointer" href={`mailto:${ email }?subject=Consulta%20`}>{ email }</a></p>
-            </p>
+            <div className=" text-customLightBg3 text-center mt-4 "> Correo Electrónico 
+            <div className="w-full mt-2 mx-auto text-center">
+            <a className=" text-customLightBg3 text-xs sm:text-lg font-bold break-words hover:text-customLightBg3Hover cursor-pointer" href={`mailto:${ email }?subject=Consulta%20`}>{ email }</a></div>
+            </div>
           </div>
         </div>
 
