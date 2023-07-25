@@ -1,13 +1,14 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { Link } from "react-router-dom";
 import { socialLinks } from "../../Data/data.js"
-
 
 import InstagramIcon from '../../assets/icons/InstagramIcon'
 import FacebookIcon from '../../assets/icons/FacebookIcon'
 import LinkedinIcon from '../../assets/icons/LinkedinIcon.jsx'
 import mailIcon from '../../assets/icons/envelope.svg'
-
 import Logo from '../../assets/imgs/logo.png'
+
+const today = new Date();
 
 
 
@@ -100,7 +101,11 @@ const Footer = () => {
             </div>
           </div>
           <p className="text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-5 mt-6 block">
-            &copy; 2023. Creado por Raúl Dávila
+          &copy; {today.getFullYear()} Creado por <a
+        href="https://rauldavila-portfolio.vercel.app/"
+        className="ml-1.5 hover:text-customLightBg3Hover hover:underline"
+        target="_blank">Raúl Dávila</a
+      >
           </p>
         </div>
       </div>
