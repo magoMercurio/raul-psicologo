@@ -17,7 +17,7 @@ export const aboutData = [
   },
   {
     title: 2,
-    description: 'Combino los mejores elementos de la terapia psicológica con el poderoso método de la Bio-neuroemoción. Esta combinación única me permite abordar los desafíos desde diferentes perspectivas, facilitando un proceso de transformación profunda y duradera.',
+    description: 'Combino los mejores elementos de la terapia psicológica con el poderoso método de la Bio-neuroemoción. Abordando los desafíos desde diferentes perspectivas.',
     image: aboutImg2,
   },
   {
